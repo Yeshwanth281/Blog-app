@@ -20,7 +20,18 @@ export const Blog =()=>{
             </div>
         </div>
     }
-
+    if(!blog){
+        return <div>
+            <Appbar/>
+            <div className="h-screen flex flex-col justify-center">
+                <div className="flex justify-center">
+                    <div className="text-2xl font-bold text-slate-500">
+                        Blog not found
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
     return <div>
         <FullBlog blog={blog}/>
     </div>
