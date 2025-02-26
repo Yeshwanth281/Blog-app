@@ -1,6 +1,6 @@
 # Blog App
 
-[Visit the Website](blog-app-git-main-yeshwanth-d-rs-projects.vercel.app)
+[Visit the Website](https://blog-app-git-main-yeshwanth-d-rs-projects.vercel.app)
 
 This project is a blog app built with a modern stack including React, TypeScript, Vite, Prisma, Hono, and Cloudflare Workers. It includes a backend for handling user authentication and blog management, and a frontend for user interaction.
 
